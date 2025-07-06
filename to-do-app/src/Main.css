@@ -1,0 +1,41 @@
+
+
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 121, 0);
+}
+/* Mobile */
+@media (max-width : 600px){
+    .classNamexx{
+        color: red;
+    }
+}
+
+/* Tablet */
+@media (min-width : 600px) , (max-width : 1024px){
+    .classNamexx{
+        color: red;
+    }
+}
+
+/* laptop & Computer */
+@media (min-width: 1024px) , (max-width : 1920px){
+    .classNamexx{
+        color: red;
+    }
+}
+
+/* Tv Large Screen  */
+@media (min-width : 1920px){
+    .classNamexx{
+        color: red;
+    }
+}
+
+.btn-m{
+    border: 30px;
+}
+.btn-s{
+    border: 15px;
+}

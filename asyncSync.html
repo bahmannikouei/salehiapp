@@ -1,0 +1,21 @@
+<!-- <script>
+    console.log('آب جوش بیار');
+setTimeout(() => {
+    console.log('چای بریز');
+}, 2000);
+console.log('چای بخور');
+</script> -->
+
+<script>
+    async function makeTea() {
+        console.log('آب جوش بیار');
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        console.log('چای بریز');
+        console.log('چای بخور');
+    }
+    makeTea();
+
+console.log('آین آخرین خط از برنامه ست');
+
+</script>
+

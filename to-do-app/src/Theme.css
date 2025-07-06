@@ -1,0 +1,14 @@
+:root {
+    --primary-color: rgb(37, 37, 244);
+    --secondry-color: green;
+    --font-color: rgb(27, 27, 27);
+    --border-radios: 10px;   
+    --font-bahman: sans-serif;
+}
+
+
+.divContainer .divCss h2 :hover {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    font-family: var(--font-bahman);
+}

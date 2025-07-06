@@ -1,0 +1,19 @@
+<button class="test" onclick="handleClick(event)" >Click me!</button>
+
+<script>
+    function handleClick(){
+        // console.log(event);
+        // console.log(event.altKey);
+        console.log(event.target.disabled);
+        console.log(event);
+        
+        // console.dir(event);
+        if(event.altKey == true){
+            alert('هی کلید Alt رو نگه داشتی من فهمیدم')
+        }
+        if(event.ctrlKey == true){
+            alert('هی کلید CTRL رو نگه داشتی من فهمیدم')
+        }
+        
+}
+</script>

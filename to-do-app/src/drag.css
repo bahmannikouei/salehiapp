@@ -1,0 +1,10 @@
+.DragDiv{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed gray;
+    text-align: center;
+    padding: 20px;
+}
+.DragDiv:hover{
+    background-color: rgb(203, 203, 203);
+}
